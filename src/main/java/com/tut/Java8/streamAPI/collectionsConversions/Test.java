@@ -19,7 +19,7 @@ public class Test {
         //Map<id,Student>
         Map<Integer,Student> map = list.stream().collect(Collectors.toMap(Student::getId, student->student));
         System.out.println(map);
-
+        
 
     }
 }
